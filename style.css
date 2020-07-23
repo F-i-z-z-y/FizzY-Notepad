@@ -1,0 +1,57 @@
+*{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+justify-content: center;
+
+}
+
+.topimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+p{
+    text-align: center;
+}
+
+.div1 {
+    background-color: lightblue;
+  }
+.div4{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.link1{
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    background: transparent url("subscribebtn.png") no-repeat 0 0;
+    padding-right: 30px;
+}
+.link1:hover{
+    background: transparent url("subscribehover.png") no-repeat 0 0 ;
+}
+
+.link2{
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    background: transparent url("followtw.png") no-repeat 0 0;
+    padding-right: 20px;
+}
+.link2:hover{
+    background: transparent url(followhover.png) no-repeat 0 0;
+
+}
+.link3{
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    background: transparent url("insta.png") no-repeat 0 0;
+}
+.link3:hover{
+    background: transparent url(instahover.png) no-repeat 0 0;
+}
